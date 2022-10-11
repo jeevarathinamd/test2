@@ -2,7 +2,7 @@ apiVersion: v2
 actions:
   - name: "argo-sync"
     events:
-      - name: "sh.keptn.event.deploy.triggered"
+      - name: "sh.keptn.event.deployment.triggered"
     tasks:
       - name: "argocd-sync"
         files:
