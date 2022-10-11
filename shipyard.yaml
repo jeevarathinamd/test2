@@ -8,7 +8,7 @@ spec:
       sequences:
         - name: "artifact-delivery"
           tasks:
-            - name: "deliver"
+            - name: "deployment"
             # (optional) your extra tasks here (eg. load tests, security scans, quality gates etc.)
             #- name: "load"
             #- name: "foo-task-here"
